@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://nordbassaudio.com/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <image:image><image:loc>https://nordbassaudio.com/screenshot1.webp</image:loc></image:image>
+    <image:image><image:loc>https://nordbassaudio.com/screenshot2.webp</image:loc></image:image>
+    <image:image><image:loc>https://nordbassaudio.com/screenshot3.webp</image:loc></image:image>
+    <image:image><image:loc>https://nordbassaudio.com/screenshot4.webp</image:loc></image:image>
+    <image:image><image:loc>https://nordbassaudio.com/screenshot5.webp</image:loc></image:image>
+    <image:image><image:loc>https://nordbassaudio.com/screenshot6.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://nordbassaudio.com/changelog/</loc>
+    <lastmod>2026-11-04</lastmod>
+  </url>
+  <url>
+    <loc>https://nordbassaudio.com/changelog/1-0-0-beta3-1/</loc>
+    <lastmod>2026-11-04</lastmod>
+  </url>
+  <url>
+    <loc>https://nordbassaudio.com/changelog/1-0-0-beta3/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <image:image><image:loc>https://nordbassaudio.com/screenshot3.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://nordbassaudio.com/privacy/</loc>
+    <lastmod>2026-11-04</lastmod>
+  </url>
+  <url>
+    <loc>https://nordbassaudio.com/terms/</loc>
+    <lastmod>2026-11-04</lastmod>
+  </url>
+  <url>
+    <loc>https://nordbassaudio.com/support/</loc>
+    <lastmod>2026-11-04</lastmod>
+  </url>
+</urlset>
