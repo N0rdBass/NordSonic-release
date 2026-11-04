@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Design subwoofer and speaker boxes with Solvex Audio: simulation, port and horn design, cutting lists and fit checks. Free on Windows, macOS and Linux.">
+    <title>Solvex Audio – Speaker Box Design &amp; Simulation Software</title>
+    <link rel="canonical" href="https://nordbassaudio.com/">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#16181b">
+
+    <!-- Social sharing (Facebook, TikTok, Instagram, X) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="NordBass Audio">
+    <meta property="og:url" content="https://nordbassaudio.com/">
+    <meta property="og:title" content="Solvex Audio – Speaker Box Design &amp; Simulation Software">
+    <meta property="og:description" content="Simulate, design and cut subwoofer and speaker enclosures. Free beta for Windows, macOS and Linux.">
+    <meta property="og:image" content="https://nordbassaudio.com/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Solvex Audio 3D enclosure designer">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Solvex Audio – Speaker Box Design &amp; Simulation Software">
+    <meta name="twitter:description" content="Simulate, design and cut subwoofer and speaker enclosures. Free beta for Windows, macOS and Linux.">
+    <meta name="twitter:image" content="https://nordbassaudio.com/og-image.jpg">
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://nordbassaudio.com/#org",
+      "name": "NordBass",
+      "url": "https://nordbassaudio.com/",
+      "logo": "https://nordbassaudio.com/logo-512.jpg",
+      "sameAs": [
+        "https://www.facebook.com/nordbasd",
+        "https://www.tiktok.com/@nordbass",
+        "https://www.instagram.com/nordbass_"
+      ],
+      "description": "NordBass is the company behind Solvex Audio speaker box design software and the NordBass Audio website."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://nordbassaudio.com/#website",
+      "url": "https://nordbassaudio.com/",
+      "name": "NordBass Audio",
+      "publisher": {
+        "@id": "https://nordbassaudio.com/#org"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Solvex Audio",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Windows 10, Windows 11, macOS, Linux",
+      "url": "https://nordbassaudio.com/",
+      "image": "https://nordbassaudio.com/og-image.jpg",
+      "publisher": {
+        "@id": "https://nordbassaudio.com/#org"
+      },
+      "description": "Loudspeaker and subwoofer enclosure design and simulation software with acoustic simulation, port and horn design, cutting lists and fit checks.",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Basic",
+          "price": "0",
+          "priceCurrency": "NOK"
+        },
+        {
+          "@type": "Offer",
+          "name": "Home",
+          "price": "99",
+          "priceCurrency": "NOK"
+        },
+        {
+          "@type": "Offer",
+          "name": "Pro",
+          "price": "499",
+          "priceCurrency": "NOK"
+        }
+      ],
+      "softwareVersion": "1.0.0-beta3.1",
+      "releaseNotes": "https://nordbassaudio.com/changelog/1-0-0-beta3-1/",
+      "datePublished": "2026-11-04"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How does the open beta work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "During the open beta every feature is unlocked, free of charge. You don't need an account or payment details. When the beta ends, Basic stays free and Home and Pro can be bought under Prices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use Solvex Audio offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Your licence is stored on your computer, so Solvex runs without internet for up to 72 hours at a time. After that it needs a quick connection to check the licence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it run on a Mac?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, natively on Apple Silicon and Intel Macs. The download is a zip with the app inside: unzip it and drag Solvex Audio into Applications. The beta isn't signed by Apple yet, so the first time, right-click the app, choose Open, then confirm."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I add my own drivers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open the Drivers tab and click Import CSV. Solvex also comes with a driver library, grouped by brand."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I report a bug or suggest something?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In the app, choose Help → Report a Problem…. It opens our support form with your version and system filled in. If you leave your email, we'll reply."
+          }
+        }
+      ]
+    }
+  ]
+}
+    </script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/png" sizes="64x64" href="logo.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="alternate" type="application/rss+xml" title="Solvex Audio updates" href="https://nordbassaudio.com/changelog/feed.xml">
+    <link rel="preload" as="image" href="screenshot1.webp" type="image/webp">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-row">
+            <a class="brand" href="/"><img src="/logo.png" alt="" width="28" height="28"><span>Solvex Audio</span></a>
+            <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+            <nav class="site-nav" id="site-nav" aria-label="Main">
+                <a href="/#about">About</a>
+                <a href="/#features">Features</a>
+                <a href="/#gallery">Screenshots</a>
+                <a href="/#pricing">Prices</a>
+                <a href="/changelog/">Changelog</a>
+                <a href="/#faq">FAQ</a>
+                <a class="btn btn-sm" href="/#download">Download</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero" id="hero">
+            <div class="hero-text">
+                <p class="eyebrow"><a href="/changelog/1-0-0-beta3-1/">Open beta: version 1.0.0-beta3.1 is out. See what's new</a></p>
+                <h1>Speaker box design software</h1>
+                <p class="lead">Solvex Audio simulates how a subwoofer or speaker box will sound, checks that the driver,
+                    port and box fit together (and in your car), and gives you the panel sizes to cut.</p>
+                <p class="actions"><a class="btn" href="#download">Download free</a> <a class="btn btn-quiet" href="#features">See what it does</a></p>
+                <p class="platforms">Windows 10/11 · macOS (Apple Silicon and Intel) · Linux (AppImage)</p>
+            </div>
+            <img class="hero-shot" src="/screenshot1.webp" alt="Solvex Audio with a ported subwoofer box in the 3D designer" width="1600" height="950" fetchpriority="high">
+        </section>
+
+        <section id="about">
+            <h2>About NordBass</h2>
+            <p>We're NordBass, a small car-audio business in Norway. We build subwoofer boxes and do car-audio
+                installs, and we made Solvex Audio because we wanted one program for the whole job: simulate the box,
+                check that it fits the car, and cut the panels.</p>
+            <p class="social">Our builds:
+                <a href="https://www.facebook.com/nordbasd" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="https://www.tiktok.com/@nordbass" target="_blank" rel="noopener noreferrer">TikTok (@nordbass)</a>
+                <a href="https://www.instagram.com/nordbass_" target="_blank" rel="noopener noreferrer">Instagram (@nordbass_)</a></p>
+        </section>
+
+        <section id="features">
+            <h2>What Solvex Audio does</h2>
+            <div class="features">
+            <div class="feature"><h3>Simulation</h3><p>Sealed, vented, passive-radiator and 4th-order bandpass boxes, plus tapped and folded horns in Pro. See frequency response, cone excursion, port air velocity and impedance change as you adjust the design.</p></div>
+            <div class="feature"><h3>Box and cutting list</h3><p>Enter the volume you want and your panel thickness. Solvex works out the box, subtracts the port volume and lists every panel with its size. Home exports the panels as DXF or SVG for a CNC or CAD program.</p></div>
+            <div class="feature"><h3>Fit checks</h3><p>Warns you when the magnet hits the back panel, the driver is too deep for the box, or a port ends too close to a wall. In Home you can enter your trunk size and see straight away whether the box fits.</p></div>
+            <div class="feature"><h3>Ports</h3><p>Round and slot ports, and 90° bent ports in Home. The port air velocity graph shows where the port will start to chuff, so you can make it bigger before you build it.</p></div>
+            <div class="feature"><h3>Calculators</h3><p>Speaker wiring and impedance, Ohm&#x27;s law, wire size, battery bank size, dB/SPL and cone area comparison. There&#x27;s also a tone generator for finding rattles and air leaks in a finished box.</p></div>
+            <div class="feature"><h3>The basics</h3><p>Windows, macOS and Linux. Metric or imperial units. English, Norwegian, Swedish, Danish, German, French and Spanish. A built-in driver library, plus CSV import for your own drivers.</p></div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2>Screenshots</h2>
+            <div class="shots">
+            <figure><a href="/screenshot1.webp"><img src="/screenshot1-thumb.webp" alt="Solvex Audio: 3D box designer with driver, port and dimensions" loading="lazy" decoding="async" width="320" height="190"></a><figcaption>3D box designer with driver, port and dimensions</figcaption></figure>
+            <figure><a href="/screenshot2.webp"><img src="/screenshot2-thumb.webp" alt="Solvex Audio: Simulation: frequency response, cone excursion, port velocity and impedance" loading="lazy" decoding="async" width="320" height="190"></a><figcaption>Simulation: frequency response, cone excursion, port velocity and impedance</figcaption></figure>
+            <figure><a href="/screenshot3.webp"><img src="/screenshot3-thumb.webp" alt="Solvex Audio: Fit checks and cutting list with DXF and SVG export" loading="lazy" decoding="async" width="320" height="190"></a><figcaption>Fit checks and cutting list with DXF and SVG export</figcaption></figure>
+            <figure><a href="/screenshot4.webp"><img src="/screenshot4-thumb.webp" alt="Solvex Audio: Driver library grouped by brand" loading="lazy" decoding="async" width="320" height="190"></a><figcaption>Driver library grouped by brand</figcaption></figure>
+            <figure><a href="/screenshot5.webp"><img src="/screenshot5-thumb.webp" alt="Solvex Audio: Battery bank calculator" loading="lazy" decoding="async" width="320" height="190"></a><figcaption>Battery bank calculator</figcaption></figure>
+            <figure><a href="/screenshot6.webp"><img src="/screenshot6-thumb.webp" alt="Solvex Audio: 3D view of a ported subwoofer box" loading="lazy" decoding="async" width="320" height="190"></a><figcaption>3D view of a ported subwoofer box</figcaption></figure>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <h2>Prices</h2>
+            <p>Basic is free. Home and Pro are subscriptions, monthly or yearly, in Norwegian kroner. Home comes with a
+                7-day free trial, no card needed.</p>
+            <div class="table-wrap">
+                <table class="compare">
+                    <thead><tr><th><span class="visually-hidden">Feature</span></th><th>Basic</th><th>Home</th><th>Pro</th></tr></thead>
+                    <tbody>
+                        <tr><th scope="row">Price</th><td>Free</td><td>99 kr / month or 890 kr / year</td><td>499 kr / month or 3 990 kr / year</td></tr>
+                <tr><th scope="row">Sealed and vented boxes</th><td>✓</td><td>✓</td><td>✓</td></tr>
+                <tr><th scope="row">SPL, excursion, port velocity graphs</th><td>✓</td><td>✓</td><td>✓</td></tr>
+                <tr><th scope="row">Fit checks, 3D view, driver library</th><td>✓</td><td>✓</td><td>✓</td></tr>
+                <tr><th scope="row">All calculators and tone generator</th><td>✓</td><td>✓</td><td>✓</td></tr>
+                <tr><th scope="row">Cutting list</th><td>Panel names</td><td>Full sizes</td><td>Full sizes</td></tr>
+                <tr><th scope="row">DXF / SVG export for CNC</th><td>–</td><td>✓</td><td>✓</td></tr>
+                <tr><th scope="row">Passive radiators, bandpass (BP4)</th><td>–</td><td>✓</td><td>✓</td></tr>
+                <tr><th scope="row">Impedance, baffle step, room and cabin gain</th><td>–</td><td>✓</td><td>✓</td></tr>
+                <tr><th scope="row">90° bent ports, trunk size limits</th><td>–</td><td>✓</td><td>✓</td></tr>
+                <tr><th scope="row">Subsonic filter, amp power match</th><td>–</td><td>✓</td><td>✓</td></tr>
+                <tr><th scope="row">Tapped and folded horns, wedge boxes</th><td>–</td><td>–</td><td>✓</td></tr>
+                <tr><th scope="row">REW overlay, vehicle space, Le override</th><td>–</td><td>–</td><td>✓</td></tr>
+                        <tr class="buy"><th scope="row"><span class="visually-hidden">Get it</span></th>
+                            <td><a class="btn btn-quiet" href="#download">Download</a></td>
+                            <td><a class="btn" id="buy-home" href="https://nordbassaudio.lemonsqueezy.com/checkout/buy/1e0d29c9-4955-4921-b94e-6bc66ccede89" target="_blank" rel="noopener">Buy Home monthly</a><a class="btn btn-quiet" id="buy-home-yearly" href="https://nordbassaudio.lemonsqueezy.com/checkout/buy/196e0c3b-e62d-4642-b512-a58d4558c74c" target="_blank" rel="noopener">Buy Home yearly</a></td>
+                            <td><a class="btn" id="buy-pro" href="https://nordbassaudio.lemonsqueezy.com/checkout/buy/8a0458e3-1746-4ac4-afd3-1ba9f4cabb2d" target="_blank" rel="noopener">Buy Pro monthly</a><a class="btn btn-quiet" id="buy-pro-yearly" href="https://nordbassaudio.lemonsqueezy.com/checkout/buy/9c0f4623-fb1e-4173-abce-59ca8bc5b705" target="_blank" rel="noopener">Buy Pro yearly</a></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="download">
+            <h2>Download</h2>
+            <p>One download for every edition: version 1.0.0-beta3.1 (<a href="/changelog/1-0-0-beta3-1/">what's new</a>). During the
+                open beta, every Home and Pro feature is unlocked to try.</p>
+            <div class="dl">
+                <a id="btn-dl-win" href="https://github.com/N0rdBass/NordSonic-release/releases/latest/download/Solvex_Audio_Windows.zip">Windows 10/11 <small>.zip, about 4 MB</small></a>
+                <a id="btn-dl-mac" href="https://github.com/N0rdBass/NordSonic-release/releases/latest/download/Solvex_Audio_macOS.zip">macOS <small>Apple Silicon and Intel, .zip, about 10 MB</small></a>
+                <a id="btn-dl-linux" href="https://github.com/N0rdBass/NordSonic-release/releases/latest/download/Solvex_Audio_Linux.zip">Linux <small>AppImage in a .zip, about 95 MB</small></a>
+            </div>
+            <p class="small">On Linux, unzip it, then run:</p>
+            <p class="cmd"><code>chmod +x Solvex*.AppImage &amp;&amp; ./Solvex*.AppImage</code>
+                <button class="copy-btn" id="btn-copy-cmd" type="button">Copy</button></p>
+            <p class="small">By downloading you agree to the <a href="/terms/">Terms of Use</a>. Simulation results
+                are estimates: check your design, wiring and fusing before you build or power anything.</p>
+        </section>
+
+        <section id="faq" class="faq">
+            <h2>Questions</h2>
+            <details id="faq-q1"><summary>How does the open beta work?</summary><p>During the open beta every feature is unlocked, free of charge. You don&#x27;t need an account or payment details. When the beta ends, Basic stays free and Home and Pro can be bought under Prices.</p></details>
+            <details id="faq-q2"><summary>Can I use Solvex Audio offline?</summary><p>Yes. Your licence is stored on your computer, so Solvex runs without internet for up to 72 hours at a time. After that it needs a quick connection to check the licence.</p></details>
+            <details id="faq-q3"><summary>Does it run on a Mac?</summary><p>Yes, natively on Apple Silicon and Intel Macs. The download is a zip with the app inside: unzip it and drag Solvex Audio into Applications. The beta isn&#x27;t signed by Apple yet, so the first time, right-click the app, choose Open, then confirm.</p></details>
+            <details id="faq-q4"><summary>How do I add my own drivers?</summary><p>Open the Drivers tab and click Import CSV. Solvex also comes with a driver library, grouped by brand.</p></details>
+            <details id="faq-q5"><summary>How do I report a bug or suggest something?</summary><p>In the app, choose Help → Report a Problem…. It opens our support form with your version and system filled in. If you leave your email, we&#x27;ll reply.</p></details>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <nav aria-label="Footer">
+                <a href="/#features">Features</a>
+                <a href="/#pricing">Prices</a>
+                <a href="/#download">Download</a>
+                <a href="/changelog/">Changelog</a>
+                <a href="/support/">Support</a>
+                <a href="/privacy/">Privacy</a>
+                <a href="/terms/">Terms</a>
+            </nav>
+            <p class="social">Follow our builds:
+                <a href="https://www.facebook.com/nordbasd" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="https://www.tiktok.com/@nordbass" target="_blank" rel="noopener noreferrer">TikTok</a>
+                <a href="https://www.instagram.com/nordbass_" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+            <p>&copy; 2026 NordBass Audio. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="/app.js" defer></script>
+</body>
+</html>
