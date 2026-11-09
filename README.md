@@ -12,8 +12,8 @@
 
 <p align="center">
   <a href="https://nordbassaudio.com"><img src="https://img.shields.io/badge/website-nordbassaudio.com-blueviolet.svg" alt="Website"></a>
-  <img src="https://img.shields.io/badge/version-0.1.24-blue.svg" alt="Version 0.1.24">
-  <img src="https://img.shields.io/badge/license-GPLv3-green.svg" alt="License GPL v3">
+  <img src="https://img.shields.io/badge/version-1.0.0--beta3.1-blue.svg" alt="Version 1.0.0-beta3.1">
+  <a href="https://nordbassaudio.com/terms/"><img src="https://img.shields.io/badge/license-proprietary-lightgrey.svg" alt="License: proprietary"></a>
   <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-orange.svg" alt="Platforms">
 </p>
 
@@ -80,5 +80,5 @@ To purchase a license or activate your key:
 
 ## 📄 License
 
-Solvex Audio is open-source software licensed under the **GPL v3 License**.  
-Copyright © 2026 **NordBass** ([nordbassaudio.com](https://nordbassaudio.com)).
+Solvex Audio is proprietary software. Copyright © 2026 **NordBass Audio** ([nordbassaudio.com](https://nordbassaudio.com)). All rights reserved.  
+Use of the software is governed by the [Terms of Use](https://nordbassaudio.com/terms/).
