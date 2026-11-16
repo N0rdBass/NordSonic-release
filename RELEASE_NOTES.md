@@ -8,12 +8,11 @@ subwoofer or speaker enclosure, check that it fits, and get a cutting list ready
 Beta3 is the biggest update yet: the whole app has been rebuilt to be faster and much smaller, and
 the cutting list can now be exported straight to CAD and CNC.
 
-Full list of changes: [docs/PATCH_NOTES.md](docs/PATCH_NOTES.md) ·
-on the website: [nordbassaudio.com/changelog](https://nordbassaudio.com/changelog/)
+Full list of changes: [nordbassaudio.com/changelog](https://nordbassaudio.com/changelog/)
 
 ---
 
-## ✨ Highlights
+## Highlights
 
 - **A new, much lighter app.** Rebuilt on a new desktop engine (Tauri + Rust). The download drops
   from about 175–265 MB to about **9 MB**. It looks and works the same, and your projects, drivers,
@@ -25,7 +24,7 @@ on the website: [nordbassaudio.com/changelog](https://nordbassaudio.com/changelo
 - **Measurement tab (Enterprise):** log-sine-sweep measurement with impulse response and gated
   frequency response.
 
-## 🔑 Editions
+## Editions
 
 - **Basic (free):** sealed and vented boxes, SPL, excursion and port-velocity graphs, driver
   database and CSV import, round and slot ports, fit checks, 3D view, and all workshop calculators.
@@ -34,7 +33,7 @@ on the website: [nordbassaudio.com/changelog](https://nordbassaudio.com/changelo
 - **Pro:** tapped and folded horns (moved up from Home), wedge boxes, REW measurement overlay and the
   Vehicle & Cargo Space calculator.
 
-## 🔊 Better simulation and geometry
+## Better simulation and geometry
 
 - More accurate passive-radiator response and box volume (full port volume is now subtracted).
 - BP4: choose the chamber layout and set front and rear volumes separately.
@@ -43,18 +42,18 @@ on the website: [nordbassaudio.com/changelog](https://nordbassaudio.com/changelo
 - Free driver placement: count, mounting face and offsets; cutouts avoid ports and panel edges.
 - Enter your trunk size and see at once whether the box fits.
 
-## 🌍 Languages
+## Languages
 
 All 7 languages are now complete: Norwegian, Swedish, Danish, German, French, Spanish and English.
 
-## 🐞 Fixes
+## Fixes
 
 - Beta users are now told about new beta versions (beta1 → beta2 was missed before).
 - Linux (Wayland): the window's minimize, maximize and close buttons work again.
 - Imperial mode: panel thickness is converted correctly, and inch inputs have sensible ranges.
 - Fixed a crash in the Geometry tab.
 
-## ⚠️ Known limitations
+## Known limitations
 
 - Measurement currently works with the built-in simulated device only; real sound cards are next.
 - The app isn't code-signed yet. On macOS, right-click the app and choose **Open** the first time;
@@ -63,7 +62,7 @@ All 7 languages are now complete: Norwegian, Swedish, Danish, German, French, Sp
 
 ---
 
-## 📦 Download
+## Download
 
 - **Windows 10/11:** [Solvex_Audio_Windows.zip](https://github.com/N0rdBass/NordSonic-release/releases/latest/download/Solvex_Audio_Windows.zip)
 - **macOS (Apple Silicon and Intel):** [Solvex_Audio_macOS.zip](https://github.com/N0rdBass/NordSonic-release/releases/latest/download/Solvex_Audio_macOS.zip)
