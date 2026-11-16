@@ -1,84 +1,85 @@
-# Solvex Audio - Loudspeaker Design & Simulation Suite
+# Solvex Audio
 
 <p align="center">
-  <img src="logo.png" alt="Solvex Audio Logo" width="120" height="120">
+  <img src="logo.png" alt="Solvex Audio logo" width="120" height="120">
 </p>
 
-<h3 align="center">Solvex Audio</h3>
+Speaker and subwoofer enclosure design and simulation software by NordBass Audio, for Windows,
+macOS and Linux.
 
-<p align="center">
-  <strong>A modern, high-precision loudspeaker enclosure design and simulation suite by NordBass Audio.</strong>
-</p>
-
-<p align="center">
-  <a href="https://nordbassaudio.com"><img src="https://img.shields.io/badge/website-nordbassaudio.com-blueviolet.svg" alt="Website"></a>
-  <img src="https://img.shields.io/badge/version-1.0.0--beta3.1-blue.svg" alt="Version 1.0.0-beta3.1">
-  <a href="https://nordbassaudio.com/terms/"><img src="https://img.shields.io/badge/license-proprietary-lightgrey.svg" alt="License: proprietary"></a>
-  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-orange.svg" alt="Platforms">
-</p>
+Website: [nordbassaudio.com](https://nordbassaudio.com) · [Changelog](https://nordbassaudio.com/changelog/) · [Support](https://nordbassaudio.com/support/)
 
 ---
 
-## 💾 Download Standalone Executables
+## Download
 
-Download pre-compiled standalone releases directly for your operating system:
+- **[Latest release](https://github.com/N0rdBass/NordSonic-release/releases/latest)**
+- [Download section on the website](https://nordbassaudio.com/#download)
 
-👉 **[Download Latest Solvex Audio Release](https://github.com/N0rdBass/NordSonic-release/releases/latest)**  
-👉 **[Official Website Download Section](https://nordbassaudio.com/#download)**
+One download covers every edition. Your licence decides which features are available.
 
----
-
-## 🚀 How to Launch the Software
-
-### 🐧 Linux (Ubuntu / Fedora / Arch)
-1. Download `Solvex_Audio_Linux.zip` and extract it.
-2. Open terminal in the extracted folder and run:
-   ```bash
-   chmod +x "Solvex Audio"
-   ./"Solvex Audio"
-   ```
-   *(If you run into display rendering warnings, ensure `xcb` libraries are installed: `sudo apt install libxcb-cursor0`)*
-
-### 🪟 Windows (10 / 11)
-1. Download `Solvex_Audio_Windows.zip` and extract it.
-2. Double-click `Solvex Audio.exe` to launch. No Python or installation required!
-
-### 🍏 macOS (Apple Silicon & Intel)
-1. Right-Click (or Control + Click) on Solvex Audio.
-2. Select Open from the menu.
-3. Click Open in the confirmation box that pops up.
-
----
-
-## 🔑 License Activation & Editions
-
-Solvex Audio is available in three editions:
-
-| Edition | Price | Features & Access |
+| System | File | Size |
 | :--- | :--- | :--- |
-| **Basic** | **Free** | Sealed & Vented simulations, SPL & cone excursion charts, driver database, wiring & Ohm's law calculators. |
-| **Home** | **99 kr / mnd** | Full panel cutting list calculations, Passive Radiator simulation, Baffle Step & Room Gain modeling, "Sweet Spot" volume solver. |
-| **Pro** | **499 kr / mnd** | Wedge enclosures, 4th Order Bandpass (BP4), 90° bent port solver, multi-chamber fit checks, Branded PDF Exports. |
+| Windows 10/11 | `Solvex_Audio_Windows.zip` | about 4 MB |
+| macOS (Apple Silicon and Intel) | `Solvex_Audio_macOS.zip` | about 10 MB |
+| Linux | `Solvex_Audio_Linux.zip` (AppImage) | about 95 MB |
 
-To purchase a license or activate your key:
-1. Visit **[nordbassaudio.com/#pricing](https://nordbassaudio.com/#pricing)** or purchase directly in the app.
-2. In Solvex Audio, select **File > Activate License...** from the top menu bar.
-3. Enter your license key and click **Activate**.
+## Installing
+
+### Windows
+1. Unzip `Solvex_Audio_Windows.zip`.
+2. Run `solvex-audio.exe`. No installation is needed.
+
+### macOS
+1. Unzip `Solvex_Audio_macOS.zip` and drag **Solvex Audio** into Applications.
+2. The beta is not signed by Apple yet. The first time, right-click the app, choose **Open**, then
+   confirm.
+
+### Linux
+Unzip `Solvex_Audio_Linux.zip`, then run:
+
+```bash
+chmod +x Solvex*.AppImage && ./Solvex*.AppImage
+```
 
 ---
 
-## ✨ Features at a Glance
+## Editions
 
-* **Acoustic Simulations:** High-accuracy physics modeling for **Sealed**, **Vented (Bass Reflex)**, **Passive Radiator**, and **4th Order Bandpass (BP4)** enclosures.
-* **Structural Geometry Solver:** Auto-calculate panel cutting lists supporting double-front baffles, shelf window-cutout bracings, and angled wedge cabinets.
-* **Physical Fit & Interference Checks:** Real-time feedback warnings for driver magnet collisions, basket depths, and port spacing clearances.
-* **Advanced Port Flare Design:** Model round, straight slot, or 90° bent ports with velocity chuffing analysis and Flare-it compliant safety margins.
-* **Acoustic Toolkit:** Series/parallel wiring animators, Ohm's law calculators, dB/SPL logarithmic converters, and wire-gauge estimators.
-* **Built-in Tone Generator:** Output test frequencies directly from the app to test cabinet rattle or port noise.
+Basic is free. Home and Pro are subscriptions, monthly or yearly, in Norwegian kroner. Home comes
+with a 7-day free trial.
+
+| | Basic | Home | Pro |
+| :--- | :--- | :--- | :--- |
+| Price | Free | 99 kr / month or 890 kr / year | 499 kr / month or 3 990 kr / year |
+| Sealed and vented boxes, graphs, fit checks, 3D view, driver library, calculators | ✓ | ✓ | ✓ |
+| Full cutting list, DXF/SVG export for CNC | – | ✓ | ✓ |
+| Passive radiators, 4th order bandpass (BP4) | – | ✓ | ✓ |
+| Impedance, baffle step, room and cabin gain | – | ✓ | ✓ |
+| 90° bent ports, trunk size limits, subsonic filter, amp power match | – | ✓ | ✓ |
+| Tapped and folded horns, wedge boxes | – | – | ✓ |
+| REW overlay, vehicle space, Le override | – | – | ✓ |
+
+To buy a licence, go to [nordbassaudio.com/#pricing](https://nordbassaudio.com/#pricing). To activate
+it, choose **File → Activate License…** in the app and enter your key.
 
 ---
 
-## 📄 License
+## Features
 
-Solvex Audio is proprietary software. Copyright © 2026 **NordBass Audio** ([nordbassaudio.com](https://nordbassaudio.com)). All rights reserved.  
+- **Simulation:** sealed, vented, passive radiator, bandpass and horn enclosures, with SPL,
+  cone excursion, impedance and port air velocity graphs.
+- **Geometry:** cutting lists with double baffles, bracing and wedge boxes, a 3D view, and
+  fit checks for driver depth, magnets and ports.
+- **Ports:** round, slot and 90° bent ports, with port velocity limits and flare design.
+- **Driver library:** manufacturer-verified drivers for car, home and pro audio, plus CSV import
+  and export for your own.
+- **Calculators:** wiring, Ohm's law, dB/SPL, wire gauge, battery sizing, and a tone generator.
+- **Languages:** English, Norwegian, Swedish, Danish, German, French and Spanish.
+
+---
+
+## Licence
+
+Solvex Audio is proprietary software. Copyright © 2026 NordBass Audio. All rights reserved.
 Use of the software is governed by the [Terms of Use](https://nordbassaudio.com/terms/).
